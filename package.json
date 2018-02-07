@@ -1,0 +1,41 @@
+{
+  "name": "v-version",
+  "version": "1.0.0",
+  "description": "Displays the version of Vue.js you are unsing.",
+  "main": "./dist/vue-version.min.js",
+  "scripts": {
+    "test": "karma start",
+    "test:watch": "karma start ./karma.conf.js",
+    "lint": "eslint src --ext=js,vue || exit 0",
+    "dev": "webpack-dev-server --content-base ./dev --env=webpack.dev --open --hot",
+    "dist": "webpack --env=webpack.dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hyounoo/v-version.git"
+  },
+  "author": "hyounoosung@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyounoo/v-version/issues"
+  },
+  "homepage": "https://github.com/hyounoo/v-version#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "jasmine-core": "^3.0.0",
+    "karma": "^2.0.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^2.0.9",
+    "vue": "^2.5.13",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {}
+}
