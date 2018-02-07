@@ -10,6 +10,10 @@
     "dev": "webpack-dev-server --content-base ./dev --env=webpack.dev --open --hot",
     "dist": "webpack --env=webpack.dist"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hyounoo/v-version.git"
